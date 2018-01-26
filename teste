@@ -1,0 +1,150 @@
+http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed
+
+<div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
+              <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/@-3.7261566,-38.4994624,18.64z?hl=en"></iframe>
+            </div>
+
+
+https://www.google.com.br/maps/place/Condom%C3%ADnio+Beira+Mar+Trade+Center/@-3.7257634,-38.4992523,17z/data=!3m1!4b1!4m5!3m4!1s0x7c7486e4ca59423:0x93066e115a853a97!8m2!3d-3.7257634!4d-38.4970636
+
+
+
+
+
+Carrocel Imagens
+<div class="carousel-item">
+                    <img class="d-block img-fluid w-100" src="img/lagoa-paraiso.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3 class="text-shadow text-primary">Third Slide</h3>
+                      <p class="text-shadow text-primary">This is the caption for the third slide.</p>
+                    </div>
+                  </div>
+
+Cabecalho
+<div class="tagline-upper text-center text-heading text-shadow-white text-danger mt-5 d-none d-lg-block">Volicharter</div>
+    <div class="tagline-upper text-center text-heading card-title d-lg-block text-danger " > Volicharter</div>
+
+
+
+    Arquivos outros 
+    <iframe 
+    id="rufous-sandbox" 
+    scrolling="no" 
+    frameborder="0" 
+    allowtransparency="true" 
+    allowfullscreen="true" 
+    style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" 
+    title="Twitter analytics iframe" 
+    src="<?= $home_index?>/img/saved_resource.html">
+</iframe>
+
+
+
+
+
+
+   Menu do site 
+
+
+
+
+        
+        <div class="container">
+            <div class="row">
+                <div id="header" class="col-md-24" role="heading">
+                    <div class="row">
+                                <!-- font resize -->
+                               
+                                <!-- FINE font resize -->
+                                <!--ricerca  <form class="navbar-form" role="search" action="http://www.consfortaleza.org.br/search">-->
+                               
+                                <!--fine ricerca--> 
+                                <!--lingue-->
+                                <div id="lingue">
+                                    <div class="row">
+                                        <!-- 
+                                        <ul><li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)">IT</a></li><li><a href="http://www.consfortaleza.org.br/pt/" title="Sito Portoguese (pt-PT)">PT</a></li></ul>
+                                        -->
+                                        <ul>
+                                            <li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--fine lingue--> 
+                       
+                    </div><!-- end row-->
+
+                    <div class="row">
+                        <div id="nav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">
+                            <div class="container-fluid"> 
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu">Menu 
+                                        <span class="sr-only"> Toggle navigation</span> 
+                                        <span class="glyphicon glyphicon-align-justify"></span> 
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse" id="main_menu">
+                                    
+
+                                    <?php 
+                                        //$args =array(
+                                        //    'theme_location'=>'header-menus',
+                                        //    'show_home'=>'Home',
+                                        //    'menu_class'  => 'menu');
+                                        //$args = array(
+                                        //                'depth'       => 0,
+                                        //                'sort_column' => 'menu_order, post_title',
+                                        //                'menu_class'  => 'menu',
+                                        //                'include'     => '',
+                                        //                'exclude'     => '',
+                                        //                'echo'        => true,
+                                        //                'show_home'   => true,
+                                        //                'link_before' => '',
+                                        //                'link_after'  => '',
+                                        //                'page_item'  => 'nav'
+                                        //            );
+                                         //wp_page_menu($args);
+                                         //wp_nav_menu($args);
+                                         //wp_nav_menu( array( 
+                                         //    'theme_location' => 'header-menu',
+                                         //    'container_class' => 'my_extra_menu_class',
+                                         //    'menu_class'=>'nav' ) );
+                                         wp_nav_menu(array(
+                                             'menu' => 'Home',
+                                             'container' => 'nav', 
+                                             'menu_class' => 'nav menu'
+                                             
+                                             )); 
+                                             //'container_class' => 'class-da-nav'
+                                    ?>
+
+                                   
+
+                                </div>
+                                <!-- fim menu header-->
+                            </div>
+                        </div>
+                    </div><!-- end row menu header-->
+
+                      <!-- inicio sub menu-->
+                            
+                               
+
+
+                                
+                                    
+                                   
+                                       
+                                       <?php
+                                         wp_nav_menu(array(
+                                             'menu' => 'SubMenu',
+                                             'container' => 'nav', 
+                                             'menu_class' => 'nav navbar-nav'  
+                                             )); 
+                                         ?>
+                                       
+                                       
+                                    
+                               
+                            
+                         <!-- fim sub menu-->
