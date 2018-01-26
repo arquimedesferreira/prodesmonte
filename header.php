@@ -4,29 +4,29 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <base href="."/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Trabalho realizado para VoliCharter empreendimentos">
+    <meta name="description" content="Trabalho realizado para Pro Desmonte">
     <meta name="author" content="Arquitec">
 
 	<title> 
                 <?php carregaTitulo() ?>
     </title>
      <?php $home = get_template_directory_uri();?>
-	<link href="http://www.volicharter.org" rel="canonical">
-	<meta property="og:title" content="Volicharter Viagens">
-	<meta property="og:url" content="http://www.volicharter.org">
-	<meta property="og:description" content="Volicharter Viagens">
+	<link href="http://www.prodesmonte.com.br" rel="canonical">
+	<meta property="og:title" content="Pro Desmonte">
+	<meta property="og:url" content="http://www.prodesmonte.com.br">
+	<meta property="og:description" content="Pro Desmonte, Serviço em desmonte de rocha">
 	<meta property="og:type" content="website">
-	<meta property="twitter:title" content="Volicharter Viagens">
-	<meta property="twitter:url" content="http://www.volicharter.org">
-	<meta property="twitter:description" content="Volicharter Viagens">
+	<meta property="twitter:title" content="Pro Desmonte, Serviço em desmonte de rocha">
+	<meta property="twitter:url" content="http://www.prodesmonte.com.br">
+	<meta property="twitter:description" content="Pro Desmonte, Serviço em desmonte de rocha">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta property="og:title" content="Veduta della Città di Fortaleza">
-	<meta property="og:url" content="http://www.volicharter.org">
-	<meta property="og:description" content="Bem Vindo a Volicharter">
+	<meta property="og:title" content="Pro Desmonte, Serviço em desmonte de rocha">
+	<meta property="og:url" content="http://www.prodesmonte.com.br">
+	<meta property="og:description" content="Pro Desmonte, Serviço em desmonte de rocha">
 	<meta property="og:image" content="<?= $home ?>/img/2016/07/recife_01.jpg">
-	<meta property="twitter:title" content="Veduta della Città di Fortaleza">
-	<meta property="twitter:url" content="http://www.volicharter.org">
-	<meta property="twitter:description" content="Bem Vindo a Volicharter">
+	<meta property="twitter:title" content="Pro Desmonte, Serviço em desmonte de rocha">
+	<meta property="twitter:url" content="http://www.prodesmonte.com.br">
+	<meta property="twitter:description" content="Pro Desmonte, Serviço em desmonte de rocha">
 	<meta property="twitter:image" content="<?= $home ?>/img/recife_01.jpg">
 	<meta property="twitter:card" content="summary">
     <link rel="shortcut icon" href="<?= $home ?>/img/desenhando.png" type="image/png">
@@ -42,8 +42,7 @@
          
         <!-- 
 
-            <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" 
-         rel="stylesheet" type="text/css">
+            
         -->
         <!-- Custom styles for this template -->
         <link href="<?= $home ?>/css/business-casual.css" rel="stylesheet">
