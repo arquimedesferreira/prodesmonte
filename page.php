@@ -25,7 +25,7 @@
         <div class="row">
             <!-- -->
             <div class="col-lg-6">
-              <img class="img-fluid mb-4 mb-lg-0" src="http://www.volicharter.org/coffe/img/slide-2.jpg" alt="">
+              <img class="img-fluid mb-4 mb-lg-0" src="<?= $page_diretorio ?>/img/slide-2.jpg" alt="">
             </div>
           
           <div class="col-lg-6">
@@ -56,7 +56,7 @@
                             ?>
                             <div class="col-md-4 mb-4 mb-4">
                                 <div class="card h-100">
-                                  <?php the_post_thumbnail(); ?>
+                                  <?php the_post_thumbnail('thumbnail', ['class' => 'd-block img-fluid w-100 wp-post-image']); ?>
                                   <div class="card-body text-center">
                                       <h4 class="card-title m-0"><?php the_title();?>
                                       <small class="text-muted">  </small>
@@ -90,10 +90,10 @@
         <hr class="divider">
         <div class="row">
           <div class="col-lg-8">
-              <a href="https://www.google.com.br/maps/place/Condom%C3%ADnio+Beira+Mar+Trade+Center/@-3.7257634,-38.4992523,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x93066e115a853a97!8m2!3d-3.7257627!4d-38.4970634" 
+              <a href="https://www.google.com.br/maps/search/AVENIDA+CASTELO+BRANCO,+3351B/@-3.7135792,-38.5716783,14.64z" 
                  alt="Clique no mapa">
                  <img class="img-fluid mb-4 mb-lg-0" 
-                  src="http://www.volicharter.org/coffe/img/localizacao.png" 
+                  src="<?= $page_diretorio ?>/img/mapa_pro_desmonte.png" 
                   title="Localização de VoliCharter" alt="Localização de VoliCharter">
             </a>
             
@@ -101,21 +101,16 @@
           <div class="col-lg-4 ">
             <h5 class="mb-0"><strong>Telefone:</strong></h5>
             <div class="mb-4"> </div>
-            <div class="mb-4"><strong>BR +55 85 3104-1171</strong></div>
-            <div class="mb-4"><strong>BR +55 85 99817-9002</strong></div>
-            <div class="mb-4"><strong>IT +39 02 4070-6898</strong></div>
-            <h5 class="mb-0"><strong>Email:</strong></h5>
-            <div class="mb-4">
-              <a href="mailto:info@volicharter.org"><strong>info@volicharter.org</strong></a> <br>
-              <a href="mailto:info@volicharter.net"><strong>info@volicharter.net</strong></a>              
-            </div>
+            <div class="mb-4"> <strong>BR +55 85 9.9998-8737</strong> <img class="img-responsive" src="<?= $page_diretorio ?>/img/whatsapp.48_48.svg" alt=""></div>
+            <div class="mb-4"><strong>BR +55 85 9.8935-2193</strong>     <img class="img-responsive" src="<?= $page_diretorio ?>/img/whatsapp.48_48.svg" alt=""></div>
+            <h5 class="mb-0 " ><strong>Email:</strong></h5>
+            <div class="mb-4"><a href="mail:prodesmonte@gmail.com"><strong>prodesmonte@gmail.com</strong></a> <br></div>
             <h5 class="mb-0"><strong>Endereço:</strong></h5>
             <div class="mb-4">
-                <strong>Rua Osvaldo Cruz,</strong>
+                <strong>Avenida Castelo Branco,3351b </strong>
               <br>
-              <strong>Meireles-Fortaleza-Ce,</strong><br>
-              <strong>Edificio Beira Mar Trade Center</strong><br>
-              <strong>Sala - 1007</strong> 
+              <strong>Centro de Fortaleza-CE,</strong><br>
+              <strong>CEP: 60335-050</strong><br>
             </div>
           </div>
         </div>

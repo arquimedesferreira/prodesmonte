@@ -55,35 +55,31 @@
                 <div class="col-md-4">
                         <h5 class="mb-0 "><strong>Celular:</strong></h5>
                         <div class="mb-4"> </div>
-                        <div class="mb-4"><strong>BR +55 85 99817-9002</strong>     <img class="img-responsive" src="http://www.volicharter.org/coffe/img/whatsapp.48_48.svg" alt=""></div>
-                        <div class="mb-4"><strong>BR +55 85 98782-6127</strong>     <img class="img-responsive" src="http://www.volicharter.org/coffe/img/whatsapp.48_48.svg" alt=""></div>
+                        <div class="mb-4"><strong>BR +55 85 9.9998-8737</strong><img class="img-responsive" src="<?= $home_index ?>/img/whatsapp.48_48.svg" alt=""> </div>
+                        <div class="mb-4"><strong>BR +55 85 9.8935-2193</strong><img class="img-responsive" src="<?= $home_index ?>/img/whatsapp.48_48.svg" alt=""></div>
                         <h5 class="mb-0 "><strong>Telefone:</strong></h5>
-                        <div class="mb-4"> </div>
-                        <div class="mb-4"><strong>BR +55 85 3104-1171</strong></div>
-                        <div class="mb-4"><strong>IT +39 02 4070-6898</strong></div>
-                        <div class="mb-4"><strong>IT +39 02 4070-6898</strong></div>
 
                         <h5 class="mb-0 " ><strong>Email:</strong></h5>
                         <div class="mb-4">
-                        <a href="mailto:info@volicharter.org"><strong>info@volicharter.org</strong></a> <br>
-                        <a href="mailto:info@volicharter.net"><strong>info@volicharter.net</strong></a>              
+                        <a href="mail:prodesmonte@gmail.com"><strong>prodesmonte@gmail.com</strong></a> <br>
+                                      
                         </div>
-
-                        <h5 class="mb-0 "><strong>Formas de Pagamento:</strong></h5>
+                        <!-- <h5 class="mb-0 "><strong>Formas de Pagamento:</strong></h5>
                         <div class="mb-4">
                             <strong>A Partir de 04 de Outubro.</strong><br>
                             <strong>Todos os voos, em até 4x sem juros.</strong><br>
                         <br>
                         
-                        </div>
+                        </div> -->
+                        
                 </div><!--End Coll m4  --> 
             </div><!--bg-faded  -->
 
             <!-- -->
             <div class="bg-faded p-4 my-4 row">
                 <hr class="divider">
-                <h2 class="text-center text-lg text-uppercase my-0">Tabela de 
-                <strong>Preço</strong>
+                <h2 class="text-center text-lg text-uppercase my-0">Alguns dos nosssos  
+                <strong>serviços</strong>
                 </h2>
                 <hr class="divider">
                 <!-- 16:9 aspect ratio -->

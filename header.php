@@ -11,25 +11,25 @@
                 <?php carregaTitulo() ?>
     </title>
      <?php $home = get_template_directory_uri();?>
-	<link href="http://www.prodesmonte.com.br" rel="canonical">
+	<link href="http://www.prodesmonte.com" rel="canonical">
 	<meta property="og:title" content="Pro Desmonte">
-	<meta property="og:url" content="http://www.prodesmonte.com.br">
+	<meta property="og:url" content="http://www.prodesmonte.com">
 	<meta property="og:description" content="Pro Desmonte, Serviço em desmonte de rocha">
 	<meta property="og:type" content="website">
 	<meta property="twitter:title" content="Pro Desmonte, Serviço em desmonte de rocha">
-	<meta property="twitter:url" content="http://www.prodesmonte.com.br">
+	<meta property="twitter:url" content="http://www.prodesmonte.com">
 	<meta property="twitter:description" content="Pro Desmonte, Serviço em desmonte de rocha">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="og:title" content="Pro Desmonte, Serviço em desmonte de rocha">
-	<meta property="og:url" content="http://www.prodesmonte.com.br">
+	<meta property="og:url" content="http://www.prodesmonte.com">
 	<meta property="og:description" content="Pro Desmonte, Serviço em desmonte de rocha">
 	<meta property="og:image" content="<?= $home ?>/img/2016/07/recife_01.jpg">
 	<meta property="twitter:title" content="Pro Desmonte, Serviço em desmonte de rocha">
-	<meta property="twitter:url" content="http://www.prodesmonte.com.br">
+	<meta property="twitter:url" content="http://www.prodesmonte.com">
 	<meta property="twitter:description" content="Pro Desmonte, Serviço em desmonte de rocha">
 	<meta property="twitter:image" content="<?= $home ?>/img/recife_01.jpg">
 	<meta property="twitter:card" content="summary">
-    <link rel="shortcut icon" href="<?= $home ?>/img/desenhando.png" type="image/png">
+    <link rel="shortcut icon" href="<?= $home ?>/img/icon.png" type="image/png">
     
          <!-- Add Boostrat Coffe-->
          <link href="<?= $home ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -56,17 +56,19 @@
     <body >
         
         <div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block p-4">
-            <img class="img-responsive" src="<?= $home ?>/img/desenhando.svg" alt="">
+        
+            
+           <img class="img-responsive" src="<?= $home ?>/img/portfole.png" alt="">
         </div>            
         <div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block">
-          <strong class=".navbar-brand">  Rua Osvaldo Cruz 1, Sala 1007  | Edificio Beira Mar Trade Center | Fortaleza -CE, Meireles </strong>
+          <strong class=".navbar-brand">  Avenida Castelo Branco, 3351b  | Centro de Fortaleza-CE | CEP 60335-050 </strong>
         </div>
 
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
             <div class="container">
                         <a class="navbar-brand text-uppercase text-expanded text-primary font-weight-bold d-lg-none" 
-                        href="#"><img src="<?= $home ?>/img/desenhando_48_48.png" > </a>
+                        href="#"><img src="<?= $home ?>/img/icon.png" > </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" 
                                 data-target="#navbarResponsive" 
                                 aria-controls="navbarResponsive" 
