@@ -40,8 +40,7 @@
         <hr class="divider">
 
         <div class="row">
-
-
+        
         <?php     $args = array('post_type'=>'parceiros');
                         // The Query
                         $loop = new WP_Query( $args );

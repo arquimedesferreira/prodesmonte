@@ -57,7 +57,6 @@
         
         <div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block p-4">
         
-            
            <img class="img-responsive" src="<?= $home ?>/img/portfole.png" alt="">
         </div>            
         <div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block">

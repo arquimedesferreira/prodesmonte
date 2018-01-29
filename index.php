@@ -18,6 +18,9 @@
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                
                             </ol>
                                                               
                             <div class="carousel-inner" role="listbox">
@@ -57,8 +60,7 @@
                         <div class="mb-4"> </div>
                         <div class="mb-4"><strong>BR +55 85 9.9998-8737</strong><img class="img-responsive" src="<?= $home_index ?>/img/whatsapp.48_48.svg" alt=""> </div>
                         <div class="mb-4"><strong>BR +55 85 9.8935-2193</strong><img class="img-responsive" src="<?= $home_index ?>/img/whatsapp.48_48.svg" alt=""></div>
-                        <h5 class="mb-0 "><strong>Telefone:</strong></h5>
-
+                        
                         <h5 class="mb-0 " ><strong>Email:</strong></h5>
                         <div class="mb-4">
                         <a href="mail:prodesmonte@gmail.com"><strong>prodesmonte@gmail.com</strong></a> <br>
@@ -69,7 +71,6 @@
                             <strong>A Partir de 04 de Outubro.</strong><br>
                             <strong>Todos os voos, em até 4x sem juros.</strong><br>
                         <br>
-                        
                         </div> -->
                         
                 </div><!--End Coll m4  --> 
@@ -78,29 +79,35 @@
             <!-- -->
             <div class="bg-faded p-4 my-4 row">
                 <hr class="divider">
-                <h2 class="text-center text-lg text-uppercase my-0">Alguns dos nosssos  
-                <strong>serviços</strong>
+                    <h2 class="text-center text-lg text-uppercase my-0">A Pro<strong>Desmonte</strong>  
                 </h2>
                 <hr class="divider">
                 <!-- 16:9 aspect ratio -->
-                <div class="embed-responsive">
+                <div class="row">
                         <?php  
-                        $args = array('post_type'=>'planilha');
+                        $args = array('post_type'=>'proDesmonte');
                         $loop = new WP_Query( $args );
                         if ( $loop->have_posts() ) {
                             while ( $loop->have_posts() ) {
                                 $loop->the_post();
+                                ?>
+                                <div class="col-md-4 mb-4 mb-4">
+                                <div class="card h-100 text-white bg-info border-danger mb-3 ">
+                                  <?php the_post_thumbnail('thumbnail', ['class' => 'd-block img-fluid w-100 wp-post-image']); ?>
+                                  <div class="card-body">
+                                      <h4 class="card-title m-0"><strong> <?php the_title();?></strong> </h4>
+                                      <p class="card-text"><?php the_content();?></p>
+                                  </div>
+                                </div>
+                            </div>
 
-                                the_post_thumbnail( 'large',['class' => 'd-block img-fluid w-100']);
-
+                            <?php
                             }
                                 wp_reset_postdata();
                             } else {
                                 // no posts found
-                            } 
-
-                        
-                        ?>
+                            }
+                            ?>
                 </div>
             </div>
 </div><!--End container-->

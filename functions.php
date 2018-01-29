@@ -3,15 +3,15 @@
 add_theme_support( 'post-thumbnails' );
 add_theme_support('menus');
 
-function mostrar_post_planilha(){
+function mostrar_post_proDesmonte(){
     
         $labes=array(
-        'name'=>'Planilha',
-        'name_singular'=>'Planilha',
-        'add_new_item'=> 'Registrar Planilha',
-        'add_item'=>' Editar Planilha',
-        'edit_item'=>'Editar Planilha',
-        'new_item'=> 'Nova Planilha'
+        'name'=>'A ProDesmonte',
+        'name_singular'=>'A ProDesmonte',
+        'add_new_item'=> 'Registrar ProDesmonte',
+        'add_item'=>' Editar ProDesmonte',
+        'edit_item'=>'Editar ProDesmonte',
+        'new_item'=> 'Nova ProDesmonte'
        
         );
         // Define o que vai ter no tela do novo tipo de post 
@@ -25,13 +25,13 @@ function mostrar_post_planilha(){
         $args= array(
             'labels'=>$labes,
             'public'=>true,
-            'description'=>'Apenas uma Planilha ',
+            'description'=>'Informações sobre a ProDesmonte ',
             'menu_icon'=>'dashicons-image-filter',
             'supports'=>$suports,
              
         );
     
-        register_post_type('planilha',$args);
+        register_post_type('proDesmonte',$args);
     }
 
 function mostrar_post_item(){
@@ -97,10 +97,7 @@ function criar_post_carrocel(){
 
 
 
-//Define os Init
-add_action('init', 'mostrar_post_planilha');
-add_action('init', 'mostrar_post_item');
-add_action('init', 'criar_post_carrocel');
+
 
 
 function carregaTitulo(){
@@ -136,3 +133,9 @@ function registra_tax_categoria(){
 
 }
 add_action('init','registra_tax_categoria');
+
+
+//Define os Init
+add_action('init', 'mostrar_post_proDesmonte');
+add_action('init', 'mostrar_post_item');
+add_action('init', 'criar_post_carrocel');
