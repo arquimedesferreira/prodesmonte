@@ -100,8 +100,8 @@
           <div class="col-lg-4 ">
             <h5 class="mb-0"><strong>Telefone:</strong></h5>
             <div class="mb-4"> </div>
-            <div class="mb-4"> <strong>BR +55 85 9.9998-8737</strong> <img class="img-responsive" src="<?= $page_diretorio ?>/img/whatsapp.48_48.svg" alt=""></div>
-            <div class="mb-4"><strong>BR +55 85 9.8935-2193</strong>     <img class="img-responsive" src="<?= $page_diretorio ?>/img/whatsapp.48_48.svg" alt=""></div>
+            <div class="mb-4"> <strong>BR +55 85 9.8534-6534 </strong> <img class="img-responsive" src="<?= $page_diretorio ?>/img/whatsapp.48_48.svg" alt=""></div>
+            <div class="mb-4"><strong>BR +55 85 9.8935-2193 </strong>     <img class="img-responsive" src="<?= $page_diretorio ?>/img/whatsapp.48_48.svg" alt=""></div>
             <h5 class="mb-0 " ><strong>Email:</strong></h5>
             <div class="mb-4"><a href="mail:prodesmonte@gmail.com"><strong>prodesmonte@gmail.com</strong></a> <br></div>
             <h5 class="mb-0"><strong>Endereço:</strong></h5>

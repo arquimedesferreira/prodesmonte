@@ -20,7 +20,6 @@
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                                
                             </ol>
                                                               
                             <div class="carousel-inner" role="listbox">
@@ -58,7 +57,7 @@
                 <div class="col-md-4">
                         <h5 class="mb-0 "><strong>Celular:</strong></h5>
                         <div class="mb-4"> </div>
-                        <div class="mb-4"><strong>BR +55 85 9.9998-8737</strong><img class="img-responsive" src="<?= $home_index ?>/img/whatsapp.48_48.svg" alt=""> </div>
+                        <div class="mb-4"><strong>BR +55 85 9.8534-6534</strong><img class="img-responsive" src="<?= $home_index ?>/img/whatsapp.48_48.svg" alt=""> </div>
                         <div class="mb-4"><strong>BR +55 85 9.8935-2193</strong><img class="img-responsive" src="<?= $home_index ?>/img/whatsapp.48_48.svg" alt=""></div>
                         
                         <h5 class="mb-0 " ><strong>Email:</strong></h5>
@@ -66,12 +65,6 @@
                         <a href="mail:prodesmonte@gmail.com"><strong>prodesmonte@gmail.com</strong></a> <br>
                                       
                         </div>
-                        <!-- <h5 class="mb-0 "><strong>Formas de Pagamento:</strong></h5>
-                        <div class="mb-4">
-                            <strong>A Partir de 04 de Outubro.</strong><br>
-                            <strong>Todos os voos, em até 4x sem juros.</strong><br>
-                        <br>
-                        </div> -->
                         
                 </div><!--End Coll m4  --> 
             </div><!--bg-faded  -->

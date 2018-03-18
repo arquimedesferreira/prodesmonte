@@ -60,7 +60,8 @@
            <img class="img-responsive" src="<?= $home ?>/img/portfole.png" alt="">
         </div>            
         <div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block">
-          <strong class=".navbar-brand">  Avenida Castelo Branco, 3351b  | Centro de Fortaleza-CE | CEP 60335-050 </strong>
+        <!---<strong class=".navbar-brand">  Avenida Castelo Branco, 3351b  | Centro de Fortaleza-CE | CEP 60335-050 </strong> -->
+        <strong class=".navbar-brand">  Nosso limite é onde você quer chegar! </strong>
         </div>
 
         <!-- Navigation -->
