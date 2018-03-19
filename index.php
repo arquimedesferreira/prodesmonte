@@ -2,9 +2,10 @@
 <!--Antes da url base  -->
 <?php $home_index = get_template_directory_uri();?>
     
-<div class="container">
-<div class="bg-faded p-4  my-4 row ">
-                <div class="col-md-8">
+<div class="container ">
+<div class="bg-faded p-4  my-4 row bg-light">
+                <!-- Image Carousel area -->
+                <div class="col-md-8 ">
                     <!-- Image Carousel -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">      
                         <?php  
@@ -54,7 +55,7 @@
                     </div><!--Iamge Coursel -->
                 </div><!--end Col  -->
                 <!--Coll m4  -->
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                         <h5 class="mb-0 "><strong>Celular:</strong></h5>
                         <div class="mb-4"> </div>
                         <div class="mb-4"><strong>BR +55 85 9.8534-6534</strong><img class="img-responsive" src="<?= $home_index ?>/img/whatsapp.48_48.svg" alt=""> </div>
@@ -69,10 +70,11 @@
                 </div><!--End Coll m4  --> 
             </div><!--bg-faded  -->
 
-            <!-- -->
-            <div class="bg-faded p-4 my-4 row">
+            <!-- start content abolt me -->
+            <div class="bg-faded p-4 my-4 row bg-light">
                 <hr class="divider">
                     <h2 class="text-center text-lg text-uppercase my-0">A Pro<strong>Desmonte</strong>  
+
                 </h2>
                 <hr class="divider">
                 <!-- 16:9 aspect ratio -->
@@ -85,7 +87,7 @@
                                 $loop->the_post();
                                 ?>
                                 <div class="col-md-4 mb-4 mb-4">
-                                <div class="card h-100 text-white bg-info border-danger mb-3 ">
+                                <div class="card h-100 text-white bg-dark mb-3 ">
                                   <?php the_post_thumbnail('thumbnail', ['class' => 'd-block img-fluid w-100 wp-post-image']); ?>
                                   <div class="card-body">
                                       <h4 class="card-title m-0"><strong> <?php the_title();?></strong> </h4>
@@ -118,3 +120,8 @@
         </script>
 </body>
 </html>
+
+
+
+
+

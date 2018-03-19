@@ -35,15 +35,15 @@
          <link href="<?= $home ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
          <link href="<?= $home ?>/css/reset.css" rel="stylesheet">
          
-         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" 
-         rel="stylesheet" type="text/css">
-         <link href="https://fonts.googleapis.com/css?family=Design+System:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" 
+         <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+         <!--<link href="https://fonts.googleapis.com/css?family=Muli,Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" 
          rel="stylesheet" type="text/css">
          
-        <!-- 
-
-            
-        -->
+               <link href="https://fonts.googleapis.com/css?family=Design+System:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" 
+         rel="stylesheet" type="text/css">
+          -->
+         
+   
         <!-- Custom styles for this template -->
         <link href="<?= $home ?>/css/business-casual.css" rel="stylesheet">
         <link href="<?= $home ?>/css/style_menu.css" rel="stylesheet">
@@ -52,20 +52,24 @@
     <?php wp_head();?>
 
     </head>
-    <!--Inicio do body -->
+    <!--Inicio do body  img-responsive
+<div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block p-4">
+             <img class="" src="<?= $home ?>/img/portfole.png" alt="">
+        </div>
+-->
     <body >
+        <div class="tagline-lower text-center  mb-5 d-none d-lg-block p-4">
+             <img class="" src="<?= $home ?>/img/Port_1_400.png" alt="">
+        </div>
         
-        <div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block p-4">
-        
-           <img class="img-responsive" src="<?= $home ?>/img/portfole.png" alt="">
-        </div>            
+               
         <div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block">
-        <!---<strong class=".navbar-brand">  Avenida Castelo Branco, 3351b  | Centro de Fortaleza-CE | CEP 60335-050 </strong> -->
-        <strong class=".navbar-brand">  Nosso limite é onde você quer chegar! </strong>
+            <!---<strong class=".navbar-brand">  Avenida Castelo Branco, 3351b  | Centro de Fortaleza-CE | CEP 60335-050 </strong> -->
+            <strong class=".navbar-brand">  Nosso limite é onde você quer chegar! </strong>
         </div>
 
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4 bg-light">
             <div class="container">
                         <a class="navbar-brand text-uppercase text-expanded text-primary font-weight-bold d-lg-none" 
                         href="#"><img src="<?= $home ?>/img/icon.png" > </a>
